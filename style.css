@@ -1,26 +1,27 @@
 body{
   background-color: black;
+  background-image: url('http://i.imgur.com/e6jBi7T.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
 }
 
 #bar{
   position: fixed;
   width: 80%;
   height: 70px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 10%;
   background-color: #FFFFFF;
-}
-
-#sub_bar{
-  width: 501px;
-  height: 70px;
-  margin: auto;
+  z-index: 2;
 }
 
 ul.top_bar{
+  display: inline-block;
+  position: fixed;
+  left: 300px;
+  margin: auto;
+  width: 450px;
+  height: 70px;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   overflow: hidden;
 }
 
@@ -30,7 +31,7 @@ li{
 
 li a{
   display: inline-block;
-  width: 167px;
+  width: 100px;
   font-family: courier;
   font-size: 20px;
   color: #555555;
@@ -44,12 +45,65 @@ li a:hover{
 }
 
 #left_mark{
-  position: relative;
+  position: absolute;
   top: 17px;
   left: 10px;
   font-family: courier;
   color: #000033;
   font-size: 36px;
+}
+
+#right_mark{
+  position: absolute;
+  top: 17px;
+  left: 10px;
+  font-family: courier;
+  color: #000033;
+  font-size: 36px;
+}
+
+#right_mark{
+  position: absolute;
+  right: 20px;
+  padding: 14.75px;
+  font-family: courier;
+  color: #000033;
+  font-size: 36px;
+}
+
+#right_mark:hover{
+  background-color: #888888;
+}
+
+.article{
+  position: relative;
+  top: 1500px;
+  width: 70%;
+  height: 600px;
+  margin-left: 15%;
+}
+
+#imformation{
+  position: relative;
+  top: 2000px;
+  float: right;
+  font-family: Palatino Linotype;
+  font-size: 15px;
+  color: white;
+  padding: 20px;
+}
+
+.article_pic{
+  float: left;
+}
+
+.article_word{
+  position: relative;
+  left: 100px;
+  padding: 100px;
+  font-family: Times New Roman;
+  font-size: 18px;
+  color: white;
 }
 
 
