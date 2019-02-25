@@ -55,14 +55,6 @@ li a:hover{
 
 #right_mark{
   position: absolute;
-  right: 10px;
-  font-family: courier;
-  color: #000033;
-  font-size: 36px;
-}
-
-#right_mark{
-  position: absolute;
   right: 20px;
   padding: 14.75px;
   font-family: courier;
