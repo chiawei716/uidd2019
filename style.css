@@ -1,0 +1,56 @@
+body{
+  background-color: black;
+}
+
+#bar{
+  position: relative;
+  width: 60%;
+  height: 50px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FFFFFF;
+}
+
+#sub_bar{
+  position: relative;
+  width: 501px;
+  height: 50px;
+  margin: auto;
+  background-color: #FFFF00;
+}
+
+ul.top_bar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li{
+  float: left;
+}
+
+li a{
+  width: 167px;
+  display: inline-block;
+  font-family: courier;
+  font-size: 26px;
+  color: #555555;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#left_mark{
+  position:absolute;
+  top: 7px;
+  left: 10px;
+  font-family: courier;
+  color: #000033;
+  font-size: 36px;
+}
+
+
+
+
