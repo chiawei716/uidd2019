@@ -32,9 +32,9 @@ li a{
   display: block;
   width: 167px;
   font-family: courier;
-  font-size: 26px;
+  font-size: 22px;
   color: #555555;
-  padding-top: 12px;
+  padding: 14px;
   text-align: center;
   text-decoration: none;
 }
