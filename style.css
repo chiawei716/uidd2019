@@ -43,7 +43,7 @@ li a:hover{
 }
 
 #left_mark{
-  position: absolute;
+  position: relative;
   top: 17px;
   left: 10px;
   font-family: courier;
