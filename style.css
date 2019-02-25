@@ -17,7 +17,6 @@ body{
   width: 501px;
   height: 50px;
   margin: auto;
-  background-color: #FFFF00;
 }
 
 ul.top_bar{
@@ -33,13 +32,17 @@ li{
 
 li a{
   width: 167px;
-  display: inline-block;
+  display: block;
   font-family: courier;
   font-size: 26px;
   color: #555555;
   padding: 12px;
   text-align: center;
   text-decoration: none;
+}
+
+li a:hover{
+  background-color: #888888;
 }
 
 #left_mark{
