@@ -54,10 +54,9 @@ li a:hover{
 }
 
 #right_mark{
-  display: inline;
   position: absolute;
   top: 17px;
-  left: 10px;
+  right: 10px;
   font-family: courier;
   color: #000033;
   font-size: 36px;
